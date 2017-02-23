@@ -18,7 +18,11 @@ public class Power {
 	  }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        int x = Integer.parseInt(args[0]);
+		//int a= 2147483647;
+		//System.out.println(Math.pow(2, 16));
+	//	a=a+a-1;
+		//System.out.println(a);
+     int x = Integer.parseInt(args[0]);
         int n = Integer.parseInt(args[1]);
         System.out.println(pow (x,n));
 	}
