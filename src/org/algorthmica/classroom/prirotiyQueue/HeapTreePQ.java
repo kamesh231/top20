@@ -29,8 +29,23 @@ public class HeapTreePQ implements IPQueue {
 
 	@Override
 	public Integer removeMin() {
-		
-		return null;
+		if (heaptree.isEmpty()) {
+			return null;
+		}
+		Integer res = heaptree.get(0);
+		heaptree.set(0, heaptree.remove(heaptree));
+		int current=0;
+		int lchild = 2*current+1;
+		int result = heaptree.get(lchild).compareTo(heaptree.get(lchild+1));
+		int small_child_index;
+		if (result <0 )
+		{
+			small_child_index = lchild;
+			
+		}
+		else
+			small_child_index = lchild+1;
+		return res;
 		// TODO Auto-generated method stub
 	}
 
