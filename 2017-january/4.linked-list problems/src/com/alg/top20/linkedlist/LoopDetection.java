@@ -1,5 +1,5 @@
 package com.alg.top20.linkedlist;
-
+//Problem statement -  Identify if loop exists in single linked list
 import java.util.HashSet;
 
 public class LoopDetection {
