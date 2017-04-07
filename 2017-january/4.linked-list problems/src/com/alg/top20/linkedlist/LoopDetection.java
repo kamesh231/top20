@@ -1,5 +1,7 @@
 package com.alg.top20.linkedlist;
 //Problem statement -  Identify if loop exists in single linked list
+//Logic explanation - With 2 nodes - Slow and Fast. The slow node navigates at just one step at a time. Fast 2 steps ahead. In cycle
+//both will match
 import java.util.HashSet;
 
 public class LoopDetection {
