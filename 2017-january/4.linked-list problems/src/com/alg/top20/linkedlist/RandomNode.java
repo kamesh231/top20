@@ -1,5 +1,5 @@
 package com.alg.top20.linkedlist;
-
+//For a stream of data flowing, we need to find a data node with equal probability
 import java.util.Random;
 
 public class RandomNode {
